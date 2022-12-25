@@ -1,8 +1,39 @@
+:root {
+  --branding-color: ;
+  --default-font-family: "Roboto", sans-serif;
+  --background-color: black;
+  --text-align: center;
+}
+
 h1 {
-  font-weight: 100;
   font-family: "Roboto", sans-serif;
 }
-p {
-  font-weight: 50;
-  font-family: "Roboto", sans-serif;
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #edf50d;
+}
+.hero {
+  background-color: black;
+}
+.hero p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #edf50d;
+}
+.btn btn-branding {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ef630c;
 }
