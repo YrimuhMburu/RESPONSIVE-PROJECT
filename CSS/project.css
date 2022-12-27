@@ -4,11 +4,10 @@
   --default-font-family: "Roboto", sans-serif;
   --text-align: center;
 }
-.hero body {
+body {
   background-color: var(--background-color);
-  background: url(bg.png);
 }
-.hero p {
+p {
   font-family: var(--default-font-family);
   font-size: 24px;
   text-align: var(--text-align);
@@ -30,14 +29,13 @@ h2 {
   background-color: var(--background-color);
 }
 .btn-branding {
-  border-radius: 50px;
+  border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
   background-color: yellow;
   text-align: center;
-  display: flex;
 }
 @media (max-width 960px);
  {
