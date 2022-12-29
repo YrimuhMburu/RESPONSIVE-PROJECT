@@ -5,6 +5,7 @@
   --text-align: center;
 }
 body {
+  background-image: url("../IMAGES/bg.png");
   background-color: var(--background-color);
 }
 p {
@@ -13,8 +14,8 @@ p {
   text-align: var(--text-align);
   color: white;
   background-color: var(--background-color);
-  background-image: url("IMAGES/bg.png");
 }
+
 h1 {
   font-family: var(--default-font-family);
   font-size: 72px;
