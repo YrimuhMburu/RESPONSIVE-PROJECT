@@ -42,6 +42,28 @@ h2 {
   background-color: yellow;
   text-align: center;
 }
+.nav li{
+  display:inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+.nav a{
+  text-decoration:none;
+  color:white;
+  transition: all 100ms ease-in-out;
+  font-size: 14px;
+}
+.nav ul{
+  padding: 0px;
+  margin:0px;
+}
+.nav hover{
+  color:var(--branding-color);
+}
+.nav a hover,nav li active a{
+  color:var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -57,11 +79,11 @@ h2 {
   }
 }
 .content {
-  h3 {
+  h3
     color: yellow;
     font-size: 18px
     font-family: var(--default-font-family);
-  }
+  
   h1 {
     font-family: var(--default-font-family);
     font-size: 64px;
