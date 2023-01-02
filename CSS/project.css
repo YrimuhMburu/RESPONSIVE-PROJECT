@@ -48,27 +48,50 @@ h2 {
 nav {
   padding: 20px 0;
 }
-nav li{
-  display:inline;
+nav li {
+  display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
-nav a{
-  text-decoration:none;
-  color:white;
+nav a {
+  text-decoration: none;
+  color: white;
   transition: all 100ms ease-in-out;
   font-size: 14px;
 }
-nav ul{
+nav ul {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
-nav hover{
-  color:var(--branding-color);
+nav hover {
+  color: var(--branding-color);
 }
-nav a:hover,nav li.active a {
-  color:var(--branding-color);
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+footer.email-link {
+  text-decoration: none;
+  color: yellow;
+  font-size: 24px;
+}
+footer.email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer.social-links a {
+  margin: 0 20px;
+  color: yellow;
+  padding: 14px;
+  border-radius: 50%;
+  transition: all 100ms;
+}
+footer.social-links a:hover {
+  color: white;
+  background-color: var(--background-color);
 }
 @media (max-width: 900px) {
   h1 {
@@ -85,11 +108,12 @@ nav a:hover,nav li.active a {
   }
 }
 .content {
-  h3
+  h3 {
     color: yellow;
-    font-size: 18px
+    font-size: 18px;
     font-family: var(--default-font-family);
-  
+  }
+
   h1 {
     font-family: var(--default-font-family);
     font-size: 64px;
