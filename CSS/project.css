@@ -56,7 +56,7 @@ h2 {
     padding: 80px 20px;
   }
 }
-.about-section {
+.content {
   h3 {
     color: #f652f6;
     font-size: 18px;
@@ -65,7 +65,7 @@ h2 {
   h1 {
     font-family: var(--default-font-family);
     font-size: 64px;
-    font-color: white;
+    color: white;
   }
   p {
     color: #f652f6;
