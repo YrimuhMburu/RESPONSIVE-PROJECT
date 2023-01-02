@@ -58,8 +58,8 @@ h2 {
 }
 .content {
   h3 {
-    color: #f652f6;
-    font-size: 18px;
+    color: yellow;
+    font-size: 18px
     font-family: var(--default-font-family);
   }
   h1 {
@@ -68,7 +68,7 @@ h2 {
     color: white;
   }
   p {
-    color: #f652f6;
+    color: yellow;
     font-size: 18px;
   }
 }
