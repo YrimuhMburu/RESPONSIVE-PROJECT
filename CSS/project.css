@@ -3,9 +3,10 @@
   --color: white;
   --default-font-family: "Roboto", sans-serif;
   --text-align: center;
+  --secondary-color: #faf7fe;
 }
 body {
-  /* background-image: url("../IMAGES/bg.png");*/
+  background-image: url("../IMAGES/bg.png");
   background-color: var(--background-color);
 }
 p {
@@ -82,17 +83,20 @@ footer.email-link:hover {
 footer {
   margin: 60px 0;
 }
-footer.social-links a {
+footer .social-links a {
   margin: 0 20px;
+  background: var(--secondary-color);
   color: yellow;
-  padding: 14px;
+  padding: 10px 14px;
   border-radius: 50%;
-  transition: all 100ms;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
-footer.social-links a:hover {
+footer .social-links a:hover {
   color: white;
-  background-color: var(--background-color);
+  background: var(--branding-color);
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -123,4 +127,8 @@ footer.social-links a:hover {
     color: yellow;
     font-size: 18px;
   }
+}
+h5 {
+  text-align: center;
+  color: white;
 }
