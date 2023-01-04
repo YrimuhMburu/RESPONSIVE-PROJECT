@@ -23,21 +23,21 @@ h1 {
   font-size: 72px;
   text-align: var(--text-align);
   color: var(--color);
-
-  /*background-color: var(--background-color);*/
 }
 h2 {
   font-family: var(--default-font-family);
   font-size: 30px;
   text-align: var(--text-align);
   color: var(--color);
-  /* background-color: var(--background-color);*/
 }
 content-container {
+  text-align: var(--text-align);
+
   padding: 160px 20px;
 }
 
 .content h1 {
+  text-align: var(--text-align);
   font-size: 64px;
   line-height: 80px;
 }
@@ -45,11 +45,14 @@ content-container {
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+
+  text-align: var(--text-align);
 }
 
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
+  text-align: var(--text-align);
 
   font-family: var(--default-font-family);
 }
@@ -139,10 +142,10 @@ footer .social-links a:hover {
   }
 }
 .content {
-  h3 {
+  /* h3 {
     font-size: 18px;
     font-family: var(--default-font-family);
-  }
+  }*/
 
   h1 {
     font-family: var(--default-font-family);
